@@ -97,10 +97,10 @@ The project includes automated experiments for:
 │   ├── aes_key_expansion_nonpipelined.sv
 │
 ├── testbench/
-│   ├── aes_key_exp_all_modes_tb.sv
-│   ├── aes_key_exp_comparison_tb.sv
-│   ├── fault_injection_tb.sv
-│   └── ...
+│   ├── aes_key_exp_128_tb.sv
+│   ├── aes_key_exp_192_tb.sv
+│   ├── aes_key_exp_256_tb.sv
+│   └── aes_key_exp_fault_injection_tb.sv
 │
 └── README.md
 ```
